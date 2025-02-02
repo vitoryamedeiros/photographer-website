@@ -1,0 +1,41 @@
+.about_section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* LINHA*/
+.about_section::before{
+    display: flex; 
+    background-color: #5050505e;
+    content: "";
+    height: 1px;
+    position: relative;
+    width: 40%;
+    margin-bottom: 28px; 
+}
+
+.about_text-content{
+    display: flex;
+    flex-direction: row;
+    color: #141414;
+    gap: 10px;
+    position: relative;
+
+    .about_section-title {
+        font-size: 6.5rem;
+        text-align: right;
+        position: relative;
+        left: -90px;
+    }
+
+    .about_section-paragrapher{
+        position: relative;
+        bottom: -140px;
+        right: -180px;
+    }
+}
+.about_section-paragrapher{
+    max-width: 500px;
+}
