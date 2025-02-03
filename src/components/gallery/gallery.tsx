@@ -11,6 +11,8 @@ import gallery8 from "../../assets/gallery-8.jpeg"
 import gallery9 from "../../assets/gallery-9.jpeg"
 import gallery10 from "../../assets/gallery-10.jpeg"
 import gallery11 from "../../assets/gallery-11.jpeg"
+import gallery12 from "../../assets/gallery-12.jpeg"
+import gallery13 from "../../assets/gallery-13.jpeg"
 
 const Gallery = () => {
   const images = [
@@ -24,7 +26,9 @@ const Gallery = () => {
     gallery8,
     gallery9,
     gallery10,
-    gallery11
+    gallery11,
+    gallery12,
+    gallery13
   ];
 
   return (
@@ -34,9 +38,6 @@ const Gallery = () => {
         {images.map((src, index) => (
           <div key={index} className="gallery-item">
             <img src={src} alt={`Galeria ${index}`} className="gallery-img" />
-            <div className="gallery-overlay">
-              {/* <span>Foto {index + 1}</span> */}
-            </div>
           </div>
         ))}
       </div>

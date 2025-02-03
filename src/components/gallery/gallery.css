@@ -1,7 +1,12 @@
 
 
 .gallery-container{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    margin: 100px;
 }
 
 .gallery-grid {
