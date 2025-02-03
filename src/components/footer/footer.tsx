@@ -1,12 +1,11 @@
-import "./Footer.css";
+import "./footer.css";
 
 const Footer = () => (
     <div className="footer__bg footer__bg__dark">
         <div className="footer__container container grid">
-            <div className="footer__header">
-                <h1 className="footer__title">Vitórya Medeiros</h1>
+            {/* <div className="footer__header">
                 <span className="footer__subtitle">Software Developer and UX/UI Designer</span>
-            </div>
+            </div> */}
              
             <div className="footer__socials">
                 <a href="https://www.instagram.com/vitorya_m2/" className="footer__social" target="_blank">
@@ -26,7 +25,7 @@ const Footer = () => (
                 </a>
             </div>
 
-            <p className="footer__copy">&#169; Vitórya Medeiros. All right reserved.</p>
+            <p className="footer__copy">&#169; All right reserved.</p>
         </div>
         {/* <a href="#home" className="arrow-up back-to-top" onclick="scrollToTop()">
             <span className="left-arm"></span>
